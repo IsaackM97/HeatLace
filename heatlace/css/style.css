@@ -1,0 +1,135 @@
+/* Custom Stylesheet */
+/**
+* Use this file to override Materialize files so you can update
+* the core Materialize files in the future
+*
+* Made By MaterializeCSS.com
+*/
+
+.icon-block {
+    padding: 0 15px;
+}
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+body{
+
+    font-family:sans-serif;
+}
+
+h1{
+    font-family: sans-serif
+
+        animation: fadeIn 2s;
+    font-weight: 700;
+    letter-spacing: 8px;
+}
+
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes text{
+    0%{
+        color: white;
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -30px;
+
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -30px;
+
+    }
+}
+
+h2{
+    animation: fadeIn 3s;
+    text-align: center;
+    font-size: 100px;
+}
+
+h3{
+    animation: fadeIn 4s;
+    text-align: center;
+    font-size: 80px;
+
+}
+
+h4{
+    animation: fadeIn 5s;
+    text-align: center;
+    font-size: 80px;
+}
+
+p{
+    animation: fadeIn 2s;
+    letter-spacing: 1px;
+    color: black;
+}
+
+#container{
+    background-color: white;
+    color:#F5B7B1 ;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: auto;
+
+}
+
+.text1{
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    position: relative;
+    animation: text 3s 1;
+
+}
+
+.text2{
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 8px;
+
+    position: relative;
+    animation: text 3s 1;
+
+}
+
+#header{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#content{
+
+
+    background-color: white;
+    padding: 10px;
+
+}
+
+#main{
+    background-color: beige;
+    width: 800px;
+    padding: 10px;
+
+}
+
+#footer{
+    padding:20px;
+
+}
